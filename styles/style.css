@@ -87,3 +87,21 @@ main{
     text-shadow: none;
     cursor: pointer;
 }
+#btnReset{
+    width: 50px;
+    height: 50px;
+    background: url('../assets/image/refresh.png');
+    border-radius: 1000px;
+    background-position: center;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-color: var(--font-color2);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 30px;
+    bottom: 50px;
+}
+#btnReset:hover{
+    box-shadow: 0px 0px 15px 0px var(--font-color2);
+}
